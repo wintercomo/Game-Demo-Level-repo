@@ -3,12 +3,12 @@
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 /Game Demo Level/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/Game Demo Level/[Tt]emp/
+/Game Demo Level/[Oo]bj/
+/Game Demo Level/[Bb]uild/
+/Game Demo Level/[Bb]uilds/
+/Game Demo Level/[Ll]ogs/
+/Game Demo Level/[Mm]emoryCaptures/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
