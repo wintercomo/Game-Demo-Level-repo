@@ -1,0 +1,22 @@
+During the assessment in which you show your prototype you show you know the interface of an IDE for games. You show you know how to manipulate and use 3D shapes and models in a 3D environment and can decorate these shapes and models. You show you are able to create an environment using the environment tooling from your IDE. You show you are able to apply particles, liquids and fog. You show you can move/test through your demolevel. You reflected on the teamwork using GIT during the workshops.
+
+A_DemoAssessment Demo Level
+
+Beoordeling: Individueel Cijfer, Gewicht: 10.00, Grens: 10.00 / Examinatoren: 1
+
+Hulpmiddelen: Geen
+
+Nabespreking: Zie opleidingsstatuut
+
+Wijze aanmelden: Toetsrooster iSAS t/m 6 december 2022, daarna via Osiris
+Criteria:
+
+    [GAME GDES-16] Je decoreert je 3D objecten in een game-IDE.
+    [GAME GDES-16] Je kan door je omgeving navigeren in een game-IDE.
+    [GAME GDES-16] Je kan vragen met betrekking van de interface van een game-IDE correct beantwoorden.
+    [GAME GDES-16] Je ontwikkelt een demolevel waarin je 3D objecten maakt en manipuleert in een game-IDE.
+    [GAME GDES-16] Je voegt een eigen elementen toe aan je game.
+    [GAME GDES-16] Je voegt een fog systeem toe aan je game in een game-IDE.
+    [GAME GDES-16] Je voegt een liquid system toe aan je game in een game-IDE.
+    [GAME GDES-16] Je voegt een omgeving toe aan je game in een game-IDE.
+    [GAME GDES-16] Je voegt een particle system toe aan je game in een game-IDE.
