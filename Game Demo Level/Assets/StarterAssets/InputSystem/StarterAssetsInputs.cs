@@ -44,7 +44,10 @@ namespace StarterAssets
 			SprintInput(value.isPressed);
 		}
 #endif
-
+		public void OnInteract(InputValue value)
+		{
+			Debug.Log("Pressed interaction button");
+		}
 
 		public void MoveInput(Vector2 newMoveDirection)
 		{
