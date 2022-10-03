@@ -25,7 +25,7 @@ public class DoorBtn : Interactable
         {
             cubeRenderer.material.SetColor("_Color", Color.green);
             Target.transform.eulerAngles = new Vector3(0, 90, 0);
-            interacted = true;
+            //interacted = true;
         }
         else
         {
