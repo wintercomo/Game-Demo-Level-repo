@@ -6,11 +6,15 @@ public class DoorBtn : Interactable
     public GameObject Target;
     public Material GreenMat;
     public Material RedMat;
+    public GameObject NextTarget;
+    public Material NextTargetMat;
+
     private bool interacted = false;
+    private Material NextTargetOriginalMat;
     // Start is called before the first frame update
     void Start()
     {
-        
+        NextTargetOriginalMat = NextTarget.GetComponent<Renderer>().material;
     }
 
     // Update is called once per frame
@@ -20,11 +24,11 @@ public class DoorBtn : Interactable
     public void HandleInteraction()
     {
         //Logic for interaction
-        var cubeRenderer = transform.GetComponent<Renderer>();
         //open door if not already.
         if (!interacted)
         {
             GetComponent<Renderer>().material = GreenMat;
+            NextTarget.GetComponent<Renderer>().material = NextTargetMat;
             Target.transform.eulerAngles = new Vector3(0, 90, 0);
             interacted = true;
         }
@@ -32,6 +36,7 @@ public class DoorBtn : Interactable
         {
             //close door
             GetComponent<Renderer>().material = RedMat;
+            NextTarget.GetComponent<Renderer>().material = NextTargetOriginalMat;
             Target.transform.eulerAngles = new Vector3(0, 0, 0);
             interacted = false;
         }
