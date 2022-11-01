@@ -11,16 +11,13 @@ public class DoorBtn : Interactable
 
     private bool interacted = false;
     private Material NextTargetOriginalMat;
+
     // Start is called before the first frame update
     void Start()
     {
         NextTargetOriginalMat = NextTarget.GetComponent<Renderer>().material;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
     public void HandleInteraction()
     {
         //Logic for interaction

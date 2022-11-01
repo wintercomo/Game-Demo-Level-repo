@@ -6,18 +6,10 @@ public class RocketLaunchBtn : Interactable
     public GameObject Target;
     public Material GreenMat;
     public Material RedMat;
+    public GameObject rocket;
 
     private bool interacted = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //Target.gameObject.SetActive(false);
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
     public void HandleInteraction()
     {
         //Logic for interaction
@@ -26,14 +18,9 @@ public class RocketLaunchBtn : Interactable
         {
             GetComponent<Renderer>().material = GreenMat;
             Target.gameObject.SetActive(true);
+            //trigger rocket movement
+            rocket.GetComponent<MoveRocket>().AllowMovement();
             interacted = true;
-        }
-        else
-        {
-            //stop rocket
-            GetComponent<Renderer>().material = RedMat;
-            Target.gameObject.SetActive(false);
-            interacted = false;
         }
     }
     public override void Interact()
